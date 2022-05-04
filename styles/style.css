@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
 /*
 Colors:
 
@@ -6,3 +8,47 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    border:             1px solid;
+}
+
+body {
+    font-family:        Roboto, Helvetica, sans-serif;
+    margin:             0;
+    padding:            0;
+}
+
+nav {
+    position:           fixed;
+    width:              100vw;
+    display:            flex;
+    justify-content:    space-between;
+}
+
+/* Check how to preserve image ratio when resizing the enclosing container */
+#logo {
+    width:              250px;
+}
+
+#links {
+    display:            flex;
+    align-items:        center;
+    padding:            0 15px;
+}
+
+#links li {
+    padding:            0 15px;
+
+}
+
+#links a {
+    font-size:          22px;
+    font-weight:        300;
+    text-decoration:    none;
+    color:              black;
+}
+
+#links li {
+    list-style-type:    none;
+}
